@@ -1,3 +1,4 @@
+[ENGLISH]
 MIT License
 
 Copyright (c) 2024 İbrahim Buğra San
@@ -19,3 +20,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[TÜRKÇE]
+#MIT Lisansı
+
+Copyright (c) 2024 İbrahim Buğra San
+
+Bu yazılım ve ilgili dökümantasyon dosyalarını (bundan sonra "Yazılım" olarak anılacaktır) 
+herhangi bir kısıtlama olmaksızın kullanma, kopyalama, değiştirme, 
+birleştirme, yayımlama, dağıtma, alt lisans verme 
+ve/veya satışını yapma hakkı verilmiştir. Yazılımı alan kişilere de bu hakları verme izni verilmiştir,
+aşağıdaki koşullar geçerlidir:
+
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarında veya önemli bir kısmında yer almalıdır.
+
+YAZILIM, "OLDUĞU GİBİ" SAĞLANMAKTADIR, HERHANGİ BİR KULLANIM GARANTİSİ, DOĞRULUK GARANTİSİ VEYA YETKİLİLİK GARANTİSİ DAHİL OLMAK ÜZERE,
+HERHANGİ BİR GARANTİ VERİLMEMEKTEDİR. YAZILIM YAZARLARI VEYA TELİF HAKKI SAHİPLERİ, HERHANGİ BİR SORUŞTURMA, HASAR VEYA DİĞER SORUMLULUKLARDAN,
+SÖZLEŞME, HAKSIZLIK VEYA DİĞER YOLLARDAN KAYNAKLANAN SORUMLULUKLARDAN, YAZILIMIN KULLANIMINDAN VEYA DİĞER İŞLEMLERDEN DOĞAN SORUMLULUKLARDAN SORUMLU OLAMAZLAR.
