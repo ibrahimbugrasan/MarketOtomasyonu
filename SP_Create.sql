@@ -1,9 +1,9 @@
---Database Çalýþtýrma
+--Database Ã‡alÃ½Ã¾tÃ½rma
 use MarketOtomasyonu
 GO
 
---STORED PROCEDURE OLUÞTURMA
---Kullanýcý Güncelleme
+--STORED PROCEDURE OLUÃžTURMA
+--KullanÃ½cÃ½ GÃ¼ncelleme
 create proc sp_updateUser
 (
 @id int,
@@ -22,7 +22,7 @@ begin
 end
 GO
 
---Güvenlik Sorularýný Aktarma
+--GÃ¼venlik SorularÃ½nÃ½ Aktarma
 create procedure guvenlikSorusuGetir_sp
 as
 begin
@@ -30,7 +30,7 @@ begin
 end
 GO
 
---Þifre Deðiþtirme
+--Ãžifre DeÃ°iÃ¾tirme
 create proc changePassword_sp
 (
 @email nvarchar(100),
@@ -42,7 +42,7 @@ update loginPage set password = @password where email = @email
 end
 GO
 
---Ürün Ekleme
+--ÃœrÃ¼n Ekleme
 create proc sp_insertProducts
 (
 @id nvarchar(10),
@@ -61,7 +61,7 @@ values(@id,@barkodkod,@olusturulma_Tarih,@guncelleme_Tarih,@urunIsim,@kilo,@fiya
 end
 GO
 
---Kullanýcý Ekleme
+--KullanÃ½cÃ½ Ekleme
 create proc sp_InsertUsers
 (
 @username nvarchar(50),
@@ -79,7 +79,7 @@ begin
 end
 GO
 
---Ürün Güncelleme
+--ÃœrÃ¼n GÃ¼ncelleme
 create proc sp_productsUpdate
 (
 @id nvarchar(10),
