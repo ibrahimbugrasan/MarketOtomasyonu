@@ -1,12 +1,12 @@
---Veritabanı Oluşturma
+--VeritabanÃ½ OluÃ¾turma
 create database MarketOtomasyonu
 GO
 
---Veritabanını Kullanma
+--VeritabanÃ½nÃ½ Kullanma
 use MarketOtomasyonu
 GO
 
---Tabloları Oluşturma
+--TablolarÃ½ OluÃ¾turma
 create table Products(
 id nvarchar(10) primary key,
 qrkod nvarchar(50),
