@@ -88,9 +88,16 @@ namespace MarketOtomasyonu
                 {
                     if (lt.email == txt_SifreDegisMailAlan.Text && lt.username == txt_SifreDegisKuAdı.Text)
                     {
-                       
+
+
+                        /*
+                          [ENGLISH]
+                          Enter the sender's email address in the first parameter of the constructor method of this object, and the person's name in the second parameter.
                         
-                        //Bu nesnenin yapıcı methodunun ilk parametresine maili gönderen kişinin mail adresini ikinci parametresinede kişinin adını girin.
+                          [TÜRKÇE] 
+                          Bu nesnenin yapıcı methodunun ilk parametresine maili gönderen kişinin mail adresini ikinci parametresinede kişinin adını girin.
+                        
+                        */
                         MailAddress mailSender = new MailAddress("Mail", "İsim");
                         
                         
@@ -105,10 +112,17 @@ namespace MarketOtomasyonu
                         mailMessage.Body = "Parola sıfırlama talebiniz alınmıştır. Parolanızı sıfırlamak için kodunuz: " + code;
 
                         SmtpClient smtp = new SmtpClient("smtp-mail.outlook.com", 587);
+
+
+                        /*
+                          [ENGLISH]
+                          When connecting to the SMTP server, you need to authenticate using your email and password. 
+                          Enter your email address in the first parameter of this object and the password for your email in the second parameter.
                         
-                        
-                        //Burada SMTP sunucusuna bağlanırken email ve parola ile kimlik doğrulaması yapmak gerekir.
-                        //Bu nesnenin ilk parametresine mail adresinizi ikinci parametresine mailinizin şifresini giriniz.
+                          [TÜRKÇE]
+                          Burada SMTP sunucusuna bağlanırken email ve parola ile kimlik doğrulaması yapmak gerekir.
+                          Bu nesnenin ilk parametresine mail adresinizi ikinci parametresine mailinizin şifresini giriniz.
+                         */
                         smtp.Credentials = new System.Net.NetworkCredential("Mail", "Şifre");
                         
                        

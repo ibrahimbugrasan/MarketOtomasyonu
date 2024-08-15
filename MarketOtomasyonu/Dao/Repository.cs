@@ -20,6 +20,19 @@ namespace MarketOtomasyonu.Dao
 
 
         /*
+          [ENGLISH]
+          Data Source = Server Name
+          Enter the name of your SQL Server here. Make sure to end with a semicolon.
+          Initial Catalog = Database Name
+          Enter the name of the database you will be working with here. Make sure to end with a semicolon.
+          User ID = Login
+          Enter the login name you use to connect with SQL here. Make sure to end with a semicolon.
+          Password = Password
+          Enter the password you use to connect with SQL here.
+
+          By completing these steps, you will have connected to the SQL Server using C#.
+                    
+          [TÜRKÇE]
           Data Source = Server Name      Buraya SQL serverınızın adını giriniz. Sonunda noktalı virgül olduğundan emin olunuz.
           Initial Catalog = Database Name      Buraya hangi database de çalışıcaksanız o database'in adını girin. Sonunda noktalı virgül olduğundan emin olunuz.
           User ID = Login     Buraya SQL ile bağlantı kurarken girdiğiniz login adını girin. Sonunda noktalı virgül olduğundan emin olunuz.
